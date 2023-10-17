@@ -230,7 +230,7 @@
             "category": "AuditEvent",
             "enabled": true,
             "retentionPolicy": {
-              "days": 30,
+              "days": 0,
               "enabled": true
             }
           }
@@ -661,7 +661,7 @@
                       "category": "[variables('logCategories')[copyIndex('logs')]]",
                       "enabled": true,
                       "retentionPolicy": {
-                        "days": 30,
+                        "days": 0,
                         "enabled": true
                       }
                     }
@@ -1047,7 +1047,7 @@
                       "category": "[variables('logCategories')[copyIndex('logs')]]",
                       "enabled": true,
                       "retentionPolicy": {
-                        "days": 30,
+                        "days": 0,
                         "enabled": true
                       }
                     }
@@ -1900,7 +1900,7 @@
                       "category": "[variables('logCategories')[copyIndex('logs')]]",
                       "enabled": true,
                       "retentionPolicy": {
-                        "days": 30,
+                        "days": 0,
                         "enabled": true
                       }
                     }
